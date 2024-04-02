@@ -41,6 +41,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **RTL realization**
+
+```
 module ex02(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -52,6 +54,8 @@ assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
+
+```
 
 **Output:**
 ![image](https://github.com/Jeshwanthkumarpayyavula/BOOLEAN_FUNCTION_MINIMIZATION/assets/145742402/157dae71-cf10-48c6-8822-33130c374df2)
